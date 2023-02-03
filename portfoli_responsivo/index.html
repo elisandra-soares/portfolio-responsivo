@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartão de Visita</title>
+
+  <script src="https://kit.fontawesome.com/970db7818a.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/970db7818a.js" crossorigin="anonymous"></script>
+
+  <style>
+    .foto-perfil {
+      height: 40%;
+      width: auto;
+      max-width: 40%;
+      border-radius: 50%;
+    }
+
+    .corPrimaria {
+      background-color: rgb(4, 180, 192);
+    }
+    .corSecundaria {
+      background-color: rgb(50, 1, 78);
+    }
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: black !important;
+    }
+    .icones {
+      padding-left: 5px;
+    }
+    .titulosBrancos {
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: white;
+    }
+    .titulosVerdes {
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #18bc7d;
+    }
+    .textoBranco {
+      color: white !important;
+    }
+    .jumbotron {
+      margin-bottom: 0px;
+    }
+
+    .textofooter{
+      margin: 0px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .telefone {
+      color: black;
+      text-align: center;
+      list-style: none;
+      padding-bottom: 50px;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    .desenhos {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand textoBranco" href="#">Elisandra Soares de Lima</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textoBranco" href="#sobre mim">Sobre Mim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textoBranco" href="#depoimentos">Depoimentos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textoBranco" href="#contatos">Contatos</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <section class="jumbotron text-center corPrimaria">
+    <div class="container">
+      <img class="foto-perfil" src="img/elisandra01.png" alt="">
+      <h1 class="jumbotron-heading textoBranco">Elisandra Soares</h1>
+      <p class="lead textoBranco">Analise e Desenvolvimento de Sistema.</p>
+      <p>
+        <a href="#contatos" class="btn btn-dark my-2">Contato</a>
+      </p>
+      <a href="https://www.linkedin.com/in/elisandra01/"><i class="textoBranco icones fab fa-linkedin"></i></a>
+      <a href="https://github.com/elisandra-soares"><i class="textoBranco icones fab fa-github"></i></a>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light" id="projetos">
+    <div class="container">
+    <h2 class="jumbotron-heading text-center titulosVerdes">Projetos</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              src="img/assada-no-forno-a-lenha.jpg"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+              src="https://github.com/elisandra-soares/bonamazza-site" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">Esse é um projeto que eu desenvolvi usando as tecnologias para iniciante, fiz para uma amiga!</p>
+
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/elisandra-soares/bonamazza-site"><button type="button"
+                      class="btn btn-sm btn-outline-success">Ver Projetos</button></a>
+                  <a href=""></a>
+                  <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              src="img/analise.jpeg"
+              alt="" style="height: 225px; width: 100%; display: block;"
+              src="https://www.facebook.com/" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">Projeto do meu outro portfolio!</p>
+
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/elisandra-soares/Meu_portfolio"><button type="button"
+                      class="btn btn-sm btn-outline-success">Ver Projetos</button></a>
+                  <a href=""></a>
+                  <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Sobre mim-->
+    <section class="jumbotron text-center corPrimaria" id="sobre mim">
+      <div class="container">
+        <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+        <p class="lead textoBranco">Meu nome é Elisandra Soares sou de Recife-PE, tenho 38 anos, casada e tenho um filho. Atualmente estou cursando Faculdade de Analise e Desenvolvimento de Sistemas (TI), fiz cursos complementares de: (Html, Css, Bootstrap, Js, EcmasScript e Orientação a objetos e Phython).<br>Pretendo adiquirir conhecimentos, compartilhar experiências e contribuir com a área da tecnologia.</p>
+      </div>
+    </section>
+
+    <!--Depoimento-->
+    <section class="jumbotron text-center" style="background-color: white !important" id="depoimentos">
+      <div class="container">
+        <h2 class="jumbotron-headin text-center titulosVerdes">
+          Depoimento
+        </h2>
+        <blockquote class="blockquote text-center">
+          <p class="mb-0">Sou uma profissional que tem em uma das minhas qualidades foco e responsabilidades em minhas tarefas diárias! Trabalho com atenção e dedicação, cumpro com minhas obrigações, e meu maior interesse é crescer junto com a empresa.</p>
+          <footer class="blockquote-footer">Front-End <cite title="Source Title">(Estácio)</cite></footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!--contatos-->
+    <section class="corPrimaria" id="contatos">
+      <div>
+        <div class="container-fluid">
+          <h3 style="padding-top: 60px;" class="text-center titulosBrancos">Disponível para oportunidades</h3>
+          <a href="flavios.02es@gmail.com"><h4 style="padding-bottom: 60px; margin-bottom: 0px;" class="text-center">flavios.02es@gmail.com</h4></a>
+          <ul class="telefone">
+            <li><i class="fa-solid fa-phone"></i></i>(81)99957-2633</li>
+            <li><i class="fa-solid fa-phone"></i></i>(81)98731-5473</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="text-center corSecundaria textofooter">
+      <p class="textoBranco">Copyright Elisandra 2023 Dev Aprender</p>
+
+    </footer>
+
+</body>
+
+</html>
